@@ -2,12 +2,11 @@
 
 <img width="1383" alt="image" src="https://user-images.githubusercontent.com/98614666/233799515-1a7cb6a3-b17f-42c4-956d-8d2a0664466f.png">
 
-Have you ever come across some amazing projects that you couldn't use **just because you didn't have an OpenAI API key?** 
+Have you ever come across some amazing projects that you couldn't use **just because you didn't have an OpenAI API key?**
 
 **We've got you covered!** This repository offers **reverse-engineered** third-party APIs for `GPT-4/3.5`, sourced from various websites. You can simply **download** this repository, and use the available modules, which are designed to be used **just like OpenAI's official package**. **Unleash ChatGPT's potential for your projects, now!** You are welcome ; ).
 
 By the way, thank you so much for `2k` stars and all the support!!
-
 
 ## Table of Contents
 
@@ -27,13 +26,13 @@ By the way, thank you so much for `2k` stars and all the support!!
   - [`writesonic`](./writesonic/README.md)
   - [`you`](./you/README.md)
   - [`sqlchat`](./sqlchat/README.md)
-  
+
 - [replit Example (feel free to fork this repl)](#replit)
 
 
 ## Todo <a name="todo"></a>
 
-- [ ] Add a GUI for the repo 
+- [ ] Add a GUI for the repo
 - [ ] Make a general package named `openai_rev`, instead of different folders
 - [ ] Live api status to know which are down and which can be used
 - [ ] Integrate more API's in `./unfinished` as well as other ones in the lists
@@ -58,25 +57,25 @@ By the way, thank you so much for `2k` stars and all the support!!
 ## Best sites  <a name="best-sites"></a>
 
 #### gpt-4
-- [`/phind`](./ora/README.md) 
+- [`/phind`](./ora/README.md)
 - pro: only stable gpt-4 with streaming ( no limit )
-- contra: weird backend prompting 
+- contra: weird backend prompting
 - why not `ora` anymore ? gpt-4 requires login + limited
 
 #### gpt-3.5
-- [`/ora`](./ora/README.md) 
+- [`/ora`](./ora/README.md)
 - only stable api at the moment ( for gpt-3.5, gpt-4 is dead)
 
 ## Install  <a name="install"></a>
-download or clone this GitHub repo  
+download or clone this GitHub repo
 install requirements with:
 ```sh
 pip3 install -r requirements.txt
 ```
 
 ## To start gpt4free GUI
-move `streamlit_app.py` from `./gui` to the base folder   
-then run:   
+move `streamlit_app.py` from `./gui` to the base folder
+then run:
 `streamlit run streamlit_app.py` or `python3 -m streamlit run streamlit_app.py`
 
 ## Docker
@@ -90,9 +89,9 @@ docker run -p 8501:8501 gpt4free:latest
 ```
 
 ## ChatGPT clone
-> currently implementing new features and trying to scale it, please be patient it may be unstable     
+> currently implementing new features and trying to scale it, please be patient it may be unstable
 > https://chat.chatbot.sex/chat
-> This site was developed by me and includes **gpt-4/3.5**, **internet access** and **gpt-jailbreak's** like DAN   
+> This site was developed by me and includes **gpt-4/3.5**, **internet access** and **gpt-jailbreak's** like DAN
 > run locally here: https://github.com/xtekky/chatgpt-clone
 
 ## Legal Notice <a name="legal-notice"></a>
@@ -107,14 +106,14 @@ Please note the following:
 
 3. **Educational Purposes Only**: This repository and its content are provided strictly for educational purposes. By using the information and code provided, users acknowledge that they are using the APIs and models at their own risk and agree to comply with any applicable laws and regulations.
 
-## Copyright: 
-This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)     
+## Copyright:
+This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 Most code, with the exception of `quora/api.py` (by [ading2210](https://github.com/ading2210)), has been written by me, [xtekky](https://github.com/xtekky).
 
 ### Copyright Notice: <a name="copyright"></a>
 ```
-xtekky/openai-gpt4: multiple reverse engineered language-model api's to decentralise the ai industry.  
+xtekky/openai-gpt4: multiple reverse engineered language-model api's to decentralise the ai industry.
 Copyright (C) 2023 xtekky
 
 This program is free software: you can redistribute it and/or modify
